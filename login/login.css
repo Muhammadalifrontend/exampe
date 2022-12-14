@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1340px !important;
+
+}
+body{
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  */
+.wrapper{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+  
+}
+.sign_title{
+    font-family: 'Poppins';
+font-style: normal;
+padding: 15px 0 35px;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #0A033C;
+
+}
+.img_children{
+    Width:325.77px;
+    Height:322.9px;
+}
+.logo{
+    align-items: center;
+    display: flex;
+    padding-top: 100px;
+}
+.logo_p{
+    
+    margin: 0;
+}
+.forma{
+    width: 50%;
+    flex-direction: column;
+    
+}
+.card{
+    flex-direction: column  ;
+}
+.input{
+    padding: 14px 120px 14px 24px;
+    border-radius: 10px;  
+    margin-top: 25px;
+    width: 370px;
+height: 50px;
+left: 801px;
+top: 503px;
+
+background: #FFFFFF;
+border: 1px solid #DEDDE4;
+border-radius: 10px;
+}
+.sign_btn{
+    align-items: center;
+}
+.left{
+    
+    padding-right: 88px;
+    padding-left: 105px;
+}
+.rigth{
+    padding-top: 103px;
+    padding-left: 88px;
+}
+.label{
+    position: relative;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+
+
+color: #0A033C;
+
+}
+.bi{
+    position: absolute;
+    left: 5px;
+    top: 65px;
+}
+.sign_btn{
+    border-radius: 5px;
+}
+.logo_p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+
+color: #0A033C;
+}
+.chek{
+    display: flex;
+}
+.chek-text{
+    padding-top: 40px;
+    justify-content: space-between;
+    width: 100%;
+}
+.buttonn{
+    width: 370px;
+height: 50px;
+left: 801px;
+top: 733px;
+background: #9C4DF4;
+border-radius: 10px;
+}
+@media only screen and (max-width: 992px){
+    .left{
+        padding-left: 10px;
+    }
+    .sign_title{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .img_children{
+        width: 280px;
+    }
+    .rigth{
+        padding-left: 10px;
+    }
+    .input{
+        width: 280px;
+    }
+    .buttonn{
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .left{
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .sign_title{
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    .img_children{
+        width: 230px;
+    }
+    .rigth{
+        padding-left: 10px;
+    }
+    .input{
+        width: 200px;
+    }
+    .buttonn{
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 576px){
+   .wrapper{
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+
+   }
+    
+   .forma{
+    flex-direction: column;
+   }
+   .label{
+    margin: 0 auto;
+    display: block;
+   }
+   .rigth{
+    margin: 0;
+    padding: 0 auto;
+   
+   }
+    .hr{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+}
+@media only screen and (max-width: 375px){
+    .wrapper{
+     width: 100%;
+     flex-direction: column;
+     margin: 0 auto;
+     text-align: center;
+     align-items: center;
+ 
+    }
+    
+    .forma{
+     flex-direction: column;
+    }
+    .label{
+     margin: 0 auto;
+     display: block;
+     padding-left: 0;
+    }
+    .rigth{
+     margin: 0;
+     padding: 0 auto;
+     justify-content: center;
+    
+    }
+     .hr{
+         display: none;
+     }
+     .left{
+         display: none;
+     }
+     .buttonn{
+        justify-content: center;
+     }
+ }
